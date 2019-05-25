@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\Libraries\CMSIS\CM3\CoreSupport -I.\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Application -I.\Driver
+-I E:\风摆\WindSwing\WindSwing\RTE
+-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+-I E:\keil5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\obj\kaerman.o --omf_browse .\obj\kaerman.crf --depend .\obj\kaerman.d "..\..\2015电子设计竞赛完整版\HARDWARE\KaErMan\KaErMan.c"
